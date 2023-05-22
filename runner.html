@@ -95,12 +95,12 @@
         filter: blur(0) grayscale(0);
         margin-top: auto;
         margin-bottom: auto;
-        image-rendering: optimizeQuality;             /* Older versions of FF          */
+        image-rendering: optimizeSpeed;             /* Older versions of FF          */
         image-rendering: -moz-crisp-edges;          /* FF 6.0+                       */
         image-rendering: -webkit-optimize-contrast; /* Safari                        */
         image-rendering: -o-crisp-edges;            /* OS X & Windows Opera (12.02+) */
         image-rendering: pixelated;                 /* Awesome future-browsers       */
-        -ms-interpolation-mode: bicubic;   /* IE                            */
+        -ms-interpolation-mode: nearest-neighbor;   /* IE                            */
       }
 
       canvas.active {
@@ -895,11 +895,11 @@
 
       function manifestFilesMD5()
       {
-        return [ "f67b4da9321fa7e944732fd46b436544",
+        return [ "b7ee120544ef0c8abdbc3cacf08d6aa5",
 "7692d9a00a76685f9f4d65e0f0f66664",
 "07871e9afd7eb36b3cee2526cdf3d8bb",
 "e8f1e8db8cf996f8715a6f2164c2e44e",
-"2fd4a42f85f16368e5e0f77805cd3a55" ];
+"786b1197b2a9460772f24b7b5c47a683" ];
       }
 
       function onFirstFrameRendered()
