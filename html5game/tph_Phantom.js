@@ -19,14 +19,19 @@ const getProvider = () => {
 };
 
 async function ConnectToPhantom(queueId) {
-  const provider = window.phantom?.solana;
+  try {
+    const provider = window.phantom?.solana;
 
-  const resp = await provider.request({ method: "connect" });
-  var solanaPublicKey = resp.publicKey.toString();
-  // alert(solanaPublicKey);
-  globalSolanaPublicKey = solanaPublicKey;
+    const resp = await provider.request({ method: "connect" });
+    var solanaPublicKey = resp.publicKey.toString();
+    // alert(solanaPublicKey);
+    globalSolanaPublicKey = solanaPublicKey;
+    return solanaPublicKey;
+  } catch (e) {
+    console.error(e);
+    alert("Make sure you have Phantom installed and open");
+  }
 
-  return solanaPublicKey;
   //make a post request
   // var xhr = new XMLHttpRequest();
   // const functionsURL =
