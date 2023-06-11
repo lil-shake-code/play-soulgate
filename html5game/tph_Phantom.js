@@ -9,6 +9,8 @@ const getProvider = () => {
     // it is called optional chaining, and it is a new feature in ES2020\
 
     if (provider?.isPhantom) {
+      //provider is phantom
+      ConnectToPhantom();
       return provider;
     }
   }
@@ -17,7 +19,7 @@ const getProvider = () => {
 };
 
 async function ConnectToPhantom(queueId) {
-  const provider = getProvider(); // see "Detecting the Provider"
+  const provider = window.phantom?.solana;
 
   const resp = await provider.request({ method: "connect" });
   var solanaPublicKey = resp.publicKey.toString();
