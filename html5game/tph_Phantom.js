@@ -22,7 +22,7 @@ async function ConnectToPhantom(queueId) {
   try {
     const provider = window.phantom?.solana;
 
-    const resp = await provider.request({ method: "connect" });
+    const resp = await provider.connect();
     var solanaPublicKey = resp.publicKey.toString();
     // alert(solanaPublicKey);
     globalSolanaPublicKey = solanaPublicKey;
