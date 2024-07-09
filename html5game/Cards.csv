@@ -1,4 +1,4 @@
-﻿Name,IP,Type,Subtype,Class,Subclass,Image,Rarity,Cost,HP,Zone,Attack_Value,Ability_Name_1,Ability_Name_2,Ability_Name_3,Trait_Type_1,Trait_Name_1,Trait_Type_2,Trait_Name_2,Trait_Type_3,Trait_Name_3,Trait_Type_4,Trait_Name_4
+Name,IP,Type,Subtype,Class,Subclass,Image,Rarity,Cost,HP,Zone,Attack_Value,Ability_Name_1,Ability_Name_2,Ability_Name_3,Trait_Type_1,Trait_Name_1,Trait_Type_2,Trait_Name_2,Trait_Type_3,Trait_Name_3,Trait_Type_4,Trait_Name_4
 Lazarus,Sneks,Hero,,Zombie,,Lazarus,Legendary,0,300,Ranged,20,Double Tap,Life Cycle,Resurrect,Body,Zombie,Fans,Zombie,Mouth,Fangs,Snek Type,2 Headed
 Yaza,Sneks,Hero,,Alien,,Yaza,Legendary,0,300,Melee,20,Mind Read,Haunting Lick,Mind Control,Body,Alien,Fans,Alien,Mouth,Tongue Purple,Hats,Pharaoh Red
 Zombie Champion,Sneks,Ally,,Zombie,,Lazarus' Champion,Rare,5,50,Melee,40,Double Tap,Rotting Aura,Raise Zombie,Body,Zombie,Hats,Angel Halo Green,Snake Type,2 Headed,,
@@ -10,6 +10,7 @@ Agent of Psy,Sneks,Ally,,Alien,,Agent of Psy,Rare,3,30,Ranged,20,Laser Beam,Abdu
 Snekurai,Sneks,Ally,,Earth,Ninja,Snekurai,Rare,2,20,Melee,30,Iaijutsu,Kenjutsu Slash,,Body,Green,Outfits,Katana,,,,
 Garden Snek,Sneks,Ally,,Earth,,Garden Snek,Common,1,20,Melee,20,Grass Blades,,,Body,Green,,,,,,
 Dark Snekix,Sneks,Ally,,Shadow,,Dark Snekix,Uncommon,2,30,Ranged,20,Stealth,Death Breath,,Body,Black,Mouth,Fire Breath Pink,Skin,Light Orange,Eyes,Aqua
+Bonkimus Prime,Bonk,Ally,Dog,Warrior,,Bonkimus Prime,Epic,3,40,Melee,25,,,,,,,,,,,
 Nebulous Snek,Sneks,Ally,,Shadow,,Nebulous Snek,Common,1,20,Melee,10,Stealth,,,,,,,,,,
 Rotten Pool,SoulGate,Spell,Ritual,Zombie,,Curse,Uncommon,4,,,,,,,,,,,,,,
 Death Pit,SoulGate,Spell,Trap,Zombie,,Trap,Rare,3,,,,,,,,,,,,,,
